@@ -1,0 +1,9 @@
+.btn-group{
+    @media (max-width: 405px) {
+        flex-wrap: wrap;
+
+        :not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+}

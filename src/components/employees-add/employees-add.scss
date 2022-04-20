@@ -1,0 +1,30 @@
+.employees-add-form{
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    color: white;
+}
+
+.add-form{
+    margin-top: 15px;
+    input{
+        max-width: 250px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 500px) {
+        flex-wrap: wrap;
+
+        input{
+            max-width: 100%;
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
+
+        .btn{
+            flex: 0 0 100%;
+        }
+    }
+}

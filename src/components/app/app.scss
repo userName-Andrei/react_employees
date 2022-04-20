@@ -1,0 +1,17 @@
+.employees{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.employees-search-panel{
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+    color: white;
+    margin-bottom: 20px;
+
+    input{
+        margin-bottom: 15px;
+    }
+}
